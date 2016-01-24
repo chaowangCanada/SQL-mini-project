@@ -1,0 +1,41 @@
+CREATE TABLE `Customer` (
+`cnumber` INT NOT NULL,
+`cName` VARCHAR(45) NULL,
+`cAddress` VARCHAR(45) NULL,
+`cphone` INT NULL,
+PRIMARY KEY (`cnumber`));
+
+CREATE TABLE `Manufacturer` (
+`mnumber` INT NOT NULL,
+`mName` VARCHAR(45) NULL,
+`mAddress` VARCHAR(45) NULL,
+`mManager` VARCHAR(45) NULL,
+`mphone` INT NULL,
+PRIMARY KEY (`mnumber`));
+
+CREATE TABLE `Product` (
+`pnumber` INT NOT NULL,
+`mNumber` INT not NULL,
+`pName` VARCHAR(45) NULL,
+`pUnitPrice` Float NULL,
+PRIMARY KEY (`mnumber` , `pNumber`));
+
+
+CREATE TABLE `Shippment` (
+`onumber` INT NOT NULL,
+`cNumber` INT NULL,
+`sDate` INT NULL,
+`receivedDate` INT NULL,
+PRIMARY KEY (`oNumber`));
+
+CREATE TABLE `OrderDetail` (
+`onumber` INT NOT NULL,
+`oDate` INT NULL,
+`detailNumber` INT NOT NULL,
+`pNumber` INT NULL,
+`oQuality` int null,
+`cost` INT NULL,
+PRIMARY KEY (`oNumber`, `detailNumber`));
+
+
+
