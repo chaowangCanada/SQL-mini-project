@@ -1,0 +1,13 @@
+insert into customer value (001, 'Adam', '1st street', '000000001');
+insert into customer value (002, 'Bella','2st street', '000000002');
+insert into customer value (003, 'Copper','3st street', '000000003');
+insert into customer value (004, 'Dan','4st street', '000000004');
+insert into customer value (005, 'Eve','5st street', '000000005');
+insert into customer value (006, 'Focker','6st street', '000000006');
+insert into customer value (007, 'Goldman','7st street', '000000007');
+insert into customer value (008, 'Hilton','8st street', '000000008');
+insert into customer value (009, 'ISIS','9st street', '000000009');
+insert into customer value (010, 'John','10st street', '000000010');
+insert into customer value (011, 'Kate','11st street', '000000011');
+insert into customer value (012, 'Lion','12st street', '000000012');
+
