@@ -1,0 +1,10 @@
+insert into manufacturer value (101, 'Bell', '101st street', 'Bell lead', '514000001');
+insert into manufacturer value (102, 'Fido','102st street', 'Fido lead','514000002');
+insert into manufacturer value (103, 'Bombardier','103st street', 'Bombardier lead','514000003');
+insert into manufacturer value (104, 'Microsoft','104st street', 'Microsoft lead','514000004');
+insert into manufacturer value (105, 'UBI','105st street', 'UBI lead','514000005');
+insert into manufacturer value (106, 'STM','106st street', 'STM lead','514000006');
+insert into manufacturer value (107, 'Provigo','107st street', 'Provigo lead','514000007');
+insert into manufacturer value (108, 'Walmart','108st street', 'Walmart lead', '514000008');
+insert into manufacturer value (109, 'Costco','109st street', 'Costco lead','514000009');
+insert into manufacturer value (110, 'BestBuy','110st street','BestBuy lead','514000010');
